@@ -1,5 +1,7 @@
 /** @format */
-
+*{
+  background-color: #e5f8fd;
+}
 .tuna {
   background: url("y.png") -800px -2000px no-repeat;
   height: 200px;
@@ -49,7 +51,7 @@
 menu {
   background: black;
   margin: 0;
-  padding: 1em;
+  padding: 2em;
   text-align: center;
 }
 
@@ -58,9 +60,10 @@ button {
   color: #e3edf2;
   cursor: pointer;
   border: 0;
-  border-radius: 0.25em;
+  border-radius:6px;
+  margin: 0em  2em;
   position: relative;
-  padding: 0.25em 2em;
+  padding: 1.25em 3em;
 }
 
 .animated button {
@@ -77,12 +80,14 @@ button::after  {
   height: 2px;
   bottom:  -8px;
   left: 0%;
-  background-color: red;
-  transition: 0.3s;
+  background: #0097c0;
+  border-radius: 20px;
+  transition: 0.3s  ease-out;
 }
 
 button:hover::after {
   width: 100%;
+  
 }
 .announce {
   text-align: center;
